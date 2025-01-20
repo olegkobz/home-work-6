@@ -11,3 +11,37 @@ table{
 .second_row_height{
     height:100px;
 }
+.first_row{
+    background-color: yellow; width: 28%;
+}
+.first_row_last_cell{
+    width: 20px;
+}
+.second_row_first_cell{
+    width: 13%;
+}
+.second_row_second_cell{
+    background-color: red;
+}
+.second_row_third_cell{
+    background-color: yellow;
+}
+.sixth_row_first_cell{
+    background-color: black;
+}
+.seventh_row_first_cell{
+    background-color: yellow;
+}
+.seventh_row_third_cell{
+    background-color: blue;
+}
+.seventh_row_fourth_cell{
+    background-color: red;
+}
+.eighth_row_second_cell{
+    background-color: black;
+    height: 20px;
+}
+.nineth_row{
+    height: 20px;
+}

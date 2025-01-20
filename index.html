@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Mondrian Table</title>
 </head>
 <body>
     <table>
         <tr class="row_height">
             <td colspan="2"></td>
             <td colspan="2"></td>
-            <td style="background-color: yellow; width: 28%;" colspan="2"></td>
-            <td rowspan="6" style="width: 20px;"></td>
+            <td class="first_row" colspan="2"></td>
+            <td class="first_row_last_cell" rowspan="6"></td>
         </tr>
         <tr class="row_height">
-            <td rowspan="2" style="width: 13%;"></td>
-            <td rowspan="4" colspan="3" style="background-color: red;"></td>
-            <td colspan="2" rowspan="2" style="background-color: yellow;"></td>
+            <td rowspan="2" class="second_row_first_cell"></td>
+            <td rowspan="4" colspan="3" class="second_row_second_cell"></td>
+            <td colspan="2" rowspan="2" class="second_row_third_cell"></td>
         </tr>
         <tr class="row_height">
         </tr>
@@ -29,21 +29,21 @@
         <tr class="row_height">
         </tr>
         <tr class="row_height">
-            <td style="background-color: black;" rowspan="2"></td>
+            <td class="sixth_row_first_cell" rowspan="2"></td>
             <td colspan="2"></td>
             <td colspan="2"></td>
         </tr>
         <tr class="row_height">
-            <td style="background-color: yellow;" rowspan="3"></td>
+            <td class="seventh_row_first_cell" rowspan="3"></td>
             <td colspan="2"></td>
-            <td style="background-color: blue;" colspan="2" rowspan="2"></td>
-            <td style="background-color: red;" rowspan="3"></td>
+            <td class="seventh_row_third_cell" colspan="2" rowspan="2"></td>
+            <td class="seventh_row_fourth_cell" rowspan="3"></td>
         </tr>
         <tr>
             <td rowspan="2"></td>
-            <td style="background-color: black; height: 20px;" colspan="2" ></td>
+            <td class="eighth_row_second_cell" colspan="2" ></td>
         </tr>
-        <tr style="height: 20px;">
+        <tr class="nineth_row">
             <td colspan="4"></td>
         </tr>
     </table>
